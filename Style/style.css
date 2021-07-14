@@ -259,10 +259,15 @@ footer .football-icon img{
           font-size: 6px;
           font-weight: 800;
           text-align: center;
+          padding-bottom: 10px;
       }
-      .highlite-section{
-          width: 812px;
-          height: 375px;
+      .highlite-section .about-highlites{
+          width: 370px;
+          height: 406px;
+      }
+      .highlite-section img{
+          width: 370px;
+          height: 406px;
       }
       .highlite-section .about-highlites h1{
           font-size: 25px;
@@ -272,5 +277,12 @@ footer .football-icon img{
           text-align: justify;
           font-size: 15px;
           font-weight: 300;
+
       }
-  }
+     .title-head{
+        font-weight: bold;
+        font-size: 35px;
+        color: #FFFFFF;
+    }
+
+}
