@@ -13,11 +13,7 @@ main{
     width: 100%;
 }
 
-/* h1{
-    font-weight: bold;
-    font-size: 48px;
-    color: #0A0826;
-} */
+
 /*------------------ This is head style------------------------  */
 
 header{
@@ -89,6 +85,10 @@ a.active, a:hover{
     color: #FFFFFF;
     background: #E02C6D;
 }
+.link-button:hover{
+    background-color: green;
+    color: red;
+}
 /*--------------- This is banner and section title style---------------  */
 .title-head{
     font-weight: bold;
@@ -99,8 +99,8 @@ a.active, a:hover{
 .top-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    justify-content: center;
-    align-items: inline-block;
+    justify-content:center ;
+    align-items: center;
     grid-column-gap: 102px;
 }
 
@@ -237,9 +237,12 @@ footer .football-icon img{
       .container{
           width: 100%;
       }
-      .players , .highlite-section{
+      .players , .highlite-section,.top-section{
           grid-template-columns: repeat(1,1fr);
       }
+     .top-section img{
+        width: 100%;
+     }
       .link-button{
         display: flex;
         flex-direction: column;
