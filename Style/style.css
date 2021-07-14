@@ -256,8 +256,9 @@ footer .football-icon img{
         background: #E02C6D;
       }
       .link-title{
-          font-size: 5px;
-          font-weight: 200;
+          font-size: 6px;
+          font-weight: 800;
+          text-align: center;
       }
       .highlite-section{
           width: 812px;
